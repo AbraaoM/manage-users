@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "uoaboUBDB8qqEYSqvgAnWxAKqDxoBFo0fW6UZ3iCXGRgKCqQfiZQoXwmYNUQt5UTI+F5qtdplNzhThDFZmKD4A==",
+  "success": true,
+  "projectFilePath": "/home/abraao/projetos/manage-users/backend/backend.csproj",
+  "expectedPackageFiles": [
+    "/home/abraao/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/abraao/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/abraao/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/abraao/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/abraao/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/abraao/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/home/abraao/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
