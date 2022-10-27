@@ -15,5 +15,23 @@ namespace backend.Controllers {
         var response =  handler.Handle(command);
         return Ok(response);
     }
+
+    [HttpGet]
+    [Route("ListaUsuarios")]
+    public IActionResult ListaUsuarios(
+      [FromServices] IListaUsuariosHandler handler
+    ){
+      var response = handler.Handle();
+      return Ok(response);
+    }
+
+    [HttpPatch]
+    [Route("AtualizaUsuario")]
+    public IActionResult AtualizaUsuario(
+      [FromServices] IListaUsuariosHandler handler
+    ){
+      var response = handler.Handle();
+      return Ok(response);
+    }    
   }
 }
