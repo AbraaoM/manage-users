@@ -9,3 +9,19 @@ services:
         - '4200:4200'
       command: > 
         bash -c "npm install && ng serve --host 0.0.0.0 --port 4200"
+    
+    database:
+      image: mcr.microsoft.com/mssql/server:2022-latest 
+      environment: 
+        ACCEPT_EULA: 'Y'
+        MSSQL_SA_PASSWORD: 'senhaBanco'
+      ports:
+        - '1433:1433'
+    
+    dotnet-service:
+      container_name: backend
+      build: ./backend
+      ports:
+        - '5041:5041'
+
+    
